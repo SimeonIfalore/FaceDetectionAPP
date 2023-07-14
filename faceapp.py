@@ -1,6 +1,6 @@
 import cv2
 import streamlit as st
-face_cascade = cv2.CascadeClassifier("C:\\Users\\Simeon\\PycharmProjects\\Faceapp\\haarcascade_frontalface_default .xml")
+face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default .xml")
 def detect_faces():
     # Initialize the webcam
     cap = cv2.VideoCapture(0)
